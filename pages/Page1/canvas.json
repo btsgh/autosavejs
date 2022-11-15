@@ -190,6 +190,7 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 10.203125,
+              "dynamicTriggerPathList": [],
               "leftColumn": 4,
               "dynamicBindingPathList": [
                 {
