@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  clearStore();\n  appsmith.store;\n  console.log('trying to check for errors');\n  AudioRecorder1.isVisible;\n  Chart1.selectedDataPoint;\n  console.log()('estes etstst teststs');\n  Audio1.autoPlay;\n  Button1.isDisabled ? 'false' : 'true';\n  console.log()('estes etstst tests');\n}",
+      "body": "() => {\n  clearStore();\n  appsmith.store;\n  console.log('trying to check for errors');\n  AudioRecorder1.isVisible;\n  Chart1.selectedDataPoint;\n  console.log()('estes etstst teststs');\n  Audio1.autoPlay;\n  Button1.isDisabled ? 'false' : 'true';\n  console.log('estes etstst tests');\n  console.log('print whatever ');\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  clearStore();\n  appsmith.store;\n  console.log('trying to check for errors');\n  AudioRecorder1.isVisible;\n  Chart1.selectedDataPoint;\n  console.log()('estes etstst teststs');\n  Audio1.autoPlay;\n  Button1.isDisabled ? 'false' : 'true';\n  console.log()('estes etstst tests');\n}"
+      "() => {\n  clearStore();\n  appsmith.store;\n  console.log('trying to check for errors');\n  AudioRecorder1.isVisible;\n  Chart1.selectedDataPoint;\n  console.log()('estes etstst teststs');\n  Audio1.autoPlay;\n  Button1.isDisabled ? 'false' : 'true';\n  console.log('estes etstst tests');\n  console.log('print whatever ');\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
