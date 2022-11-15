@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "m24",
-    "fullyQualifiedName": "JSObject3.m24",
+    "name": "m19",
+    "fullyQualifiedName": "JSObject3Copy.m19",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,17 +13,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_JSObject3",
+    "pageId": "Page2",
+    "collectionId": "Page2_JSObject3Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "(b1 = 10) => {\n  for (let a1 = 100; a1 < 110; a1++) {\n    return a1 * b1;\n  }\n}",
+      "body": "() => {\n  Qry_AC_DC_Adapter_DropdownList.data;\n}",
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {}
-      ],
+      "jsArguments": [],
       "isAsync": false
     },
     "executeOnLoad": false,
@@ -36,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(b1 = 10) => {\n  for (let a1 = 100; a1 < 110; a1++) {\n    return a1 * b1;\n  }\n}"
+      "() => {\n  Qry_AC_DC_Adapter_DropdownList.data;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject3.m24",
+  "id": "Page2_JSObject3Copy.m19",
   "deleted": false,
-  "gitSyncId": "63720717338eb56c6206f110_63734f2a1df5cf1bbfbd9626"
+  "gitSyncId": "63720717338eb56c6206f110_63739e771df5cf1bbfbd963e"
 }

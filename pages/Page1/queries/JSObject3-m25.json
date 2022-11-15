@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "m24",
-    "fullyQualifiedName": "JSObject3.m24",
+    "name": "m25",
+    "fullyQualifiedName": "JSObject3.m25",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "(b1 = 10) => {\n  for (let a1 = 100; a1 < 110; a1++) {\n    return a1 * b1;\n  }\n}",
+      "body": "(b1 = 10) => {\n  for (let a1 = 1; a1 < b1; a1++) {\n    return a1 * b1;\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {}
@@ -36,14 +36,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(b1 = 10) => {\n  for (let a1 = 100; a1 < 110; a1++) {\n    return a1 * b1;\n  }\n}"
+      "(b1 = 10) => {\n  for (let a1 = 1; a1 < b1; a1++) {\n    return a1 * b1;\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject3.m24",
+  "id": "Page1_JSObject3.m25",
   "deleted": false,
-  "gitSyncId": "63720717338eb56c6206f110_63734f2a1df5cf1bbfbd9626"
+  "gitSyncId": "63720717338eb56c6206f110_63739d691df5cf1bbfbd9639"
 }

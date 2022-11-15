@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject3",
-    "pageId": "Page1",
+    "name": "JSObject3Copy",
+    "pageId": "Page2",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -19,7 +19,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Page1_JSObject3",
+  "id": "Page2_JSObject3Copy",
   "deleted": false,
-  "gitSyncId": "63720717338eb56c6206f110_63730ec1a8f08072b34e044c"
+  "gitSyncId": "63720717338eb56c6206f110_63739e781df5cf1bbfbd9675"
 }
